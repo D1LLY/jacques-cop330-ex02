@@ -28,7 +28,7 @@ public class App {
         System.out.print("What is the input string? ");
         String input= in.nextLine();
 
-        String output= input + "has"+ input.length()+ "characters.";
+        String output= input + " has "+ input.length()+ " characters.";
 
         System.out.println(output);
 
